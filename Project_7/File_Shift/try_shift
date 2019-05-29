@@ -1,0 +1,25 @@
+#test script for project 8.
+#Author: Jing Wang, for Program Design
+#To use the script, copy it into the same directory as your scource file
+# Set execute permission for the file by issuing the command:
+# chmod +x try_shift
+# Compile your program, producing a.out as the executable
+# To run the script, type
+# ./try_shift
+# The user input will not be shown on the screen
+./a.out <<-EndOfInput
+jennys_message.txt
+23
+EndOfInput
+#
+cat jennys_message.txt.sft
+echo '----------------------------------------------------'
+echo 'Expected:'
+echo 'Enter file name: jennys_message.txt'
+echo 'Enter the shift amount: 23'
+echo 'F ebxoa oxafl pqxqflk xkklrkzba qebv tfii'
+echo 'dfsb xtxv cobb zfozrp qfzhbqp ql qeb cfopq'
+echo 'qtbkqv cfsb mblmib tel zxii fk. Fq plrkap'
+echo 'ifhb crk. Ibqp xii zxii xka dl qldbqebo.'
+echo '===================================================='
+#
